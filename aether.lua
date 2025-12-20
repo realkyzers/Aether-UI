@@ -38,7 +38,7 @@ local Debounce = false
 local AetherGui = Instance.new("ScreenGui")
 AetherGui.Name = "Aether"
 AetherGui.ResetOnSpawn = false
-AetherGui.ZIndex = 100
+AetherGui.DisplayOrder = 100
 
 if gethui then
 	AetherGui.Parent = gethui()
